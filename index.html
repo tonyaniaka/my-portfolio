@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating blobs -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./image/logo 1.png" alt="TAA Digitals Logo" class="logo-img">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">+</div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div>
+      <h1 class="reveal">Tony Tech</h1>
+      <p class="reveal">A passionate developer building cool web experiences.</p>
+      <a href="#projects" class="btn reveal">See My Work</a>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section reveal" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Full Stark web designer</div>
+      <div class="skill-card">Cybersecurity engineer</div>
+      <div class="skill-card">Forex Trader</div>
+      <div class="skill-card">Graphic Designer</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section reveal" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card"><a href="https://ksl-psi.vercel.app" target="_blank">Project 1</a></div>
+      <div class="project-card"><a href="https://zakunhotel.vercel.app" target="_blank">Project 2</a></div>  
+      <div class="project-card">Project 3</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact reveal" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/manwkjbo" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 T.A.A. Digitals | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
